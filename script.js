@@ -1,0 +1,14 @@
+const question = ["What’s your favorite way to spend a day off?", "What was the best vacation you ever took and why?", "Where’s the next place on your travel bucket list and why?", "What are your hobbies, and how did you get into them?", "What was your favorite age growing up?", "What was the last thing you read?", "Would you say you’re more of an extrovert or an introvert?", "What was the last TV show you binge-watched?", " Are you into podcasts or do you only listen to music?", "Do you have a favorite holiday? Why or why not?", "If you could only eat one food for the rest of your life, what would it be?", " Do you like going to the movies or prefer watching at home?", " What’s your go-to guilty pleasure?", "In the summer, would you rather go to the beach or go camping?", " What's your favorite quote from a TV show/movie/book?", " How old were you when you had your first celebrity crush, and who was it?", " What's one thing that can instantly make your day better?", " Do you have any pet peeves?", "Which meal is your favorite: breakfast, lunch, or dinner?", " What song always gets you out on the dance floor?", " What activity instantly calms you?", " Ideally, how would you spend your birthday?", "Are you a fan of musicals—why or why not?", " What's your favorite season and why?", "What's the best joke you've ever heard?", "What's the phone app you use most?", " Would you rather cook or order in?", "Have your ever disliked something and then changed your mind?", "What's your favorite board game?", "What's your most prized possession and why?", " Is there any product that you couldn't live without?", " If you could have any exotic animal as a pet, which would it be?", " What would be the first thing you'd do if you won the lottery?", " What’s your favorite way to unwind?", "How do you enjoy spending your alone time?", " What’s the best concert you’ve ever been to?", " What causes are you passionate about?", " What’s something you’re excited about right now?", "What’s your favorite content genre (horror, sci-fi, rom-com, etc.)?", "What’s an essential part of your daily routine?", " What’s the best gift you’ve ever received?", "What’s the first thing you do after getting home from work?", " Who do you most like spending time with and why?", "Which family member has had the greatest impact on you?", "Who’s the best gift-giver in your family?", "What’s your favorite story about your grandparents?"];
+
+let colors = ["red", "blue","darkolivegreen", "purple", "green", "black"];
+
+function generate() {
+    let randomQuest = question[Math.floor(Math.random() * question.length)]
+    console.log(randomQuest)
+     document.getElementById('question').innerHTML = `${randomQuest}`
+     let randomColor = colors[Math.floor(Math.random()*5 )]
+     document.body.style.backgroundColor = `${randomColor}`
+};
+
+
+

@@ -1,0 +1,23 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+   font-size: 3.5rem; 
+   font-weight: 900;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: gold;
+    font-size: 1.5rem;
+    border: .15rem solid white;
+}
+
+h2 {
+    color: white ;
+    font-size: 2rem;
+    font-weight: 800;
+}
